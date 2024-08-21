@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, Helvetica;
+  }
+  
+  .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    background-color: #1F3157;
+  }
+  
+  form {
+    padding: 32px;
+    box-shadow: 0px 0px 6px 4px gray;
+    width: 400px;
+    border-radius: 4px;
+    background-color: white;
+  }
+  
+  ul {
+    margin-bottom: 32px;
+  }
+  
+  legend {
+    margin-bottom: 24px;
+    font-family: serif;
+    font-size: 48px;
+  }
+  
+  label {
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  
+  fieldset {
+    padding: 0;
+    border: 0;
+  }
+  
+  li {
+    list-style-type: none;
+    margin-bottom: 24px;
+  }
+  
+  input {
+    display: flex;
+    width: 300px;
+    height: 52px;
+    color: rgb(30, 30, 30);
+    outline: none;
+    padding: 0 16px;
+    font-size: 24px;
+  }
+  input:focus{
+    border: 2px solid rgb(91, 91, 163);
+    border-radius: 3px;
+  }
+  .btn {
+    background-color: #0c672a;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 16px 50px;
+    cursor: pointer;
+    border-radius: 3px;
+     font-weight: 600;
+    transition: uppercase;
+    /* width: 100%; */
+  }
+  
+  .btn:hover {
+    background-color: rgb(9, 112, 131) ;
+  }
+  
+  form a {
+    display: flex-inline;
+    margin-top: 32px;
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .signUp{
+    background-color: rgb(16, 176, 204);
+  }
+  .signIn:hover{
+    background-color: #0ca640;
+  }
+  
+  #error-message {
+    color: crimson;
+    font-size: 16px;
+  }
+  

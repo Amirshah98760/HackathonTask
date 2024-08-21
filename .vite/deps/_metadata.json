@@ -1,0 +1,64 @@
+{
+  "hash": "03f1120a",
+  "configHash": "332d3dbe",
+  "lockfileHash": "e3b0c442",
+  "browserHash": "a0d5e38b",
+  "optimized": {
+    "firebase/app": {
+      "src": "../../node_modules/firebase/app/dist/esm/index.esm.js",
+      "file": "firebase_app.js",
+      "fileHash": "4045ce40",
+      "needsInterop": false
+    },
+    "firebase/auth": {
+      "src": "../../node_modules/firebase/auth/dist/esm/index.esm.js",
+      "file": "firebase_auth.js",
+      "fileHash": "33d0e87c",
+      "needsInterop": false
+    },
+    "firebase/firestore": {
+      "src": "../../node_modules/firebase/firestore/dist/esm/index.esm.js",
+      "file": "firebase_firestore.js",
+      "fileHash": "7a03942c",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "4de32889",
+      "needsInterop": true
+    },
+    "react-beautiful-dnd": {
+      "src": "../../node_modules/react-beautiful-dnd/dist/react-beautiful-dnd.esm.js",
+      "file": "react-beautiful-dnd.js",
+      "fileHash": "a5640058",
+      "needsInterop": false
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "ba961af2",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "25a29057",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-IFW3MRAY": {
+      "file": "chunk-IFW3MRAY.js"
+    },
+    "chunk-HCGKX5ED": {
+      "file": "chunk-HCGKX5ED.js"
+    },
+    "chunk-WNPTCGAH": {
+      "file": "chunk-WNPTCGAH.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
+    }
+  }
+}
